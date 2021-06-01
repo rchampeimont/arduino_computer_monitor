@@ -55,7 +55,10 @@ extern void createCustomLCDChars();
 void setup() {
   Serial.begin(115200);
 
-  pinMode(HDD_LED_PIN, INPUT);
+  // Use a pull-up resistor to make clear variations between 5V and 0V,
+  // instead of variations between somewhere around 3V and 0V.
+  pinMode(HDD_LED_PIN, INPUT_PULLUP);
+  
   pinMode(CPU_FAN_SENSE_PIN, INPUT);
 
   lcd.begin(LCD_COLS, LCD_ROWS);
