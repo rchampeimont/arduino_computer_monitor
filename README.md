@@ -5,11 +5,11 @@ My goal here was to see what I can monitor without installing any software on th
 
 More specifically, my program monitors:
 * CPU Fan requested speed in % of maximum speed
-* CPU Fan axctual speed in RPM
-* HDD usage % (+ display a filled square that mimicks HDD LED)
+* CPU Fan actual speed in RPM
+* HDD usage % (+ displays a filled square that mimicks the HDD LED)
 * Temperature (not connected to the motherboard, just uses a temperature sensor)
 
-Overview:
+Overview during development (outside computer):
 ![General overview](/images/overview.jpg?raw=true)
 
 Circuit schematic:
