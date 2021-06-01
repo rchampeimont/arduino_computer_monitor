@@ -14,4 +14,4 @@ Overview during development (outside computer):
 
 Circuit schematic:
 ![Circuit schematic](/images/schematic.jpg?raw=true)
-I have used an Arduino Leonardo, but I don't use any Leonardo-specific features so an Arduino Uno could be used instead for example.
+I used an Arduino Leonardo, but I don't use any Leonardo-specific features so an Arduino Uno could be used instead for example.
