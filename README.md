@@ -1,5 +1,11 @@
 # arduino_computer_monitor
-Monitor a computer by connecting an Arduino to the motherboard
+Monitor a computer by connecting an Arduino to the motherboard.
+
+More specifically, my program monitors:
+* CPU Fan requested speed in % of maximum speed
+* CPU Fan axctual speed in RPM
+* HDD usage % (+ display a filled square that mimicks HDD LED)
+* Temperature (not connected to the motherboard, just uses a temperature sensor)
 
 Overview:
 ![General overview](/images/overview.jpg?raw=true)
