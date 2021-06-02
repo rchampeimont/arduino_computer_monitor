@@ -12,6 +12,9 @@ More specifically, my program monitors:
 Overview during development (outside computer):
 ![General overview](/images/overview.jpg?raw=true)
 
+Final result:
+![Final result in computer](/images/overview_final.jpg?raw=true)
+
 Circuit schematic:
 ![Circuit schematic](/images/schematic.jpg?raw=true)
 I used an Arduino Leonardo, but I don't use any Leonardo-specific features so an Arduino Uno could be used instead for example.
