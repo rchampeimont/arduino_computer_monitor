@@ -17,7 +17,7 @@ const int HDD_LED_PIN = 3;
 const int CPU_FAN_SENSE_PIN = 2;
 
 // Connect to CPU fan control (blue) wire.
-const int CPU_FAN_CONTROL_PIN = A1;
+const int CPU_FAN_CONTROL_PIN = A5;
 
 // TMP36 temperature sensor. Needs analog input pin.
 const int TEMPERATURE_SENSOR_PIN = A0;
