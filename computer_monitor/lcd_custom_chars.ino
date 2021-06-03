@@ -2,7 +2,7 @@ const int LCD_CUSTOM_CHARS_COUNT = 1;
 
 byte LCD_CUSTOM_CHARS[LCD_CUSTOM_CHARS_COUNT][8] = {
   {
-    // filled chracter
+    // filled square
     B11111,
     B11111,
     B11111,
