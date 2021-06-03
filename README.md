@@ -3,6 +3,8 @@ Monitor a computer by connecting an Arduino to the motherboard.
 
 My goal here was to see what I can monitor without installing any software on the computer, but just using connections to the motherboard.
 
+Watch my YouTube video presenting how this project works: https://www.youtube.com/watch?v=_jJMjwHiZSc
+
 More specifically, my program monitors:
 * CPU Fan requested speed in % of maximum speed
 * CPU Fan actual speed in RPM
