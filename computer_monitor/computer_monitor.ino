@@ -168,13 +168,13 @@ void loop() {
     loopSpeedCounter = 0;
 
     // Read fan control value (which is PWM)
-    unsigned long positiveLength = pulseIn(CPU_FAN_CONTROL_PIN, HIGH, 200);
-    unsigned long negativeLength = pulseIn(CPU_FAN_CONTROL_PIN, LOW, 200);
-    if (positiveLength + negativeLength == 0) {
+    unsigned long highLength = pulseIn(CPU_FAN_CONTROL_PIN, HIGH, 200);
+    unsigned long lowLength = pulseIn(CPU_FAN_CONTROL_PIN, LOW, 200);
+    if (highLength + lowLength == 0) {
       // No pulse, so we must be at 0% or 100%
       fanControlPWM = digitalRead(CPU_FAN_CONTROL_PIN) == HIGH ? 100 : 0;
     } else {
-      fanControlPWM = positiveLength * 100 / (positiveLength + negativeLength);
+      fanControlPWM = highLength * 100 / (highLength + lowLength);
     }
 
     previousReportTime = now;
